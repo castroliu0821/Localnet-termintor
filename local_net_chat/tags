@@ -1,0 +1,208 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFF_MAX	client_main.c	11;"	d	file:
+BUFF_MAX	client_ui.c	11;"	d	file:
+BUFF_MAX	log.c	11;"	d	file:
+BUFF_MAX	server_op.c	136;"	d	file:
+BUFF_MAX	server_ui.c	15;"	d	file:
+BUFF_SIZE	client_op.c	11;"	d	file:
+BUFF_SIZE	server_op.h	7;"	d
+BUFF_SIZE	test.c	7;"	d	file:
+COLOR_CMD	log.c	16;"	d	file:
+COLOR_CONNECT	log.c	18;"	d	file:
+COLOR_ERR_CODE	log.c	19;"	d	file:
+COLOR_HEARTBEAT	log.c	13;"	d	file:
+COLOR_LOGIN	log.c	15;"	d	file:
+COLOR_QUIT	log.c	17;"	d	file:
+COLOR_REG	log.c	14;"	d	file:
+CONN_MAX	server_op.h	8;"	d
+DATA_MAX	protocol.h	4;"	d
+ERR_CONNECT	protocol.h	18;"	d
+ERR_NAME_LNG	protocol.h	10;"	d
+ERR_NAME_NOEXIT	protocol.h	14;"	d
+ERR_NAME_SHR	protocol.h	11;"	d
+ERR_OFFLINE	protocol.h	16;"	d
+ERR_PWD	protocol.h	15;"	d
+ERR_PWD_LNG	protocol.h	12;"	d
+ERR_PWD_SHR	protocol.h	13;"	d
+ERR_REENTER	protocol.h	17;"	d
+ERR_REPEAT	protocol.h	9;"	d
+FILE_SERVER_CONFIG	client_op.h	11;"	d
+FILE_SERVER_CONFIG	server_op.h	4;"	d
+FILE_SERVER_CONFIG	test.c	8;"	d	file:
+FILE_USER_SAVE	server_op.h	5;"	d
+HEARTBEAT_PAUSE	client_op.h	13;"	d
+MAXSLEEP	client_op.h	9;"	d
+MAXSLEEP	test.c	9;"	d	file:
+NICKNAME_MAX	user.h	13;"	d
+NICKNAME_MIN	user.h	14;"	d
+OFFTIME_SEC	server_op.h	9;"	d
+OFF_LINE	user.h	21;"	d
+ON_LINE	user.h	20;"	d
+PASSWD_MAX	user.h	16;"	d
+PASSWD_MIN	user.h	17;"	d
+SCAN_FEQ_SEC	server_op.h	10;"	d
+STATE_CHAT	client_op.h	26;"	d
+STATE_CMD	client_op.h	25;"	d
+STATE_LOGIN	client_op.h	23;"	d
+STATE_NORMAL	client_op.h	22;"	d
+STATE_REGISTER	client_op.h	24;"	d
+STATE_UNCONNECT	client_op.h	21;"	d
+STATE_USER	client_op.h	27;"	d
+TYPE_CHAT	protocol.h	/^                            TYPE_CHAT ,$/;"	e	enum:_t_data_type
+TYPE_CMD	protocol.h	/^                            TYPE_CMD ,$/;"	e	enum:_t_data_type
+TYPE_ERR	protocol.h	/^                            TYPE_ERR $/;"	e	enum:_t_data_type
+TYPE_EXIT	protocol.h	/^                            TYPE_EXIT ,$/;"	e	enum:_t_data_type
+TYPE_HEART	protocol.h	/^                            TYPE_HEART ,$/;"	e	enum:_t_data_type
+TYPE_LOGIN	protocol.h	/^                            TYPE_LOGIN = 0 ,$/;"	e	enum:_t_data_type
+TYPE_MSG	protocol.h	/^                            TYPE_MSG ,$/;"	e	enum:_t_data_type
+TYPE_OK	protocol.h	/^                            TYPE_OK ,$/;"	e	enum:_t_data_type
+TYPE_REG	protocol.h	/^                            TYPE_REG ,$/;"	e	enum:_t_data_type
+UNKWON	user.h	19;"	d
+_CLIENT_OP_H_	client_op.h	2;"	d
+_LOG_H_	log.h	2;"	d
+_PROTOCOL_H_	protocol.h	2;"	d
+_SERVER_H_	client_ui.h	2;"	d
+_SERVER_H_	server.h	2;"	d
+_SERVER_H_	server_ui.h	2;"	d
+_SERVER_OP_H_	server_op.h	2;"	d
+_USER_H_	user.h	5;"	d
+_USER_OP_H_	user_op.h	2;"	d
+_t_data_type	protocol.h	/^typedef enum _t_data_type{$/;"	g
+_t_potol_type	protocol.h	/^typedef struct _t_potol_type {$/;"	s
+_t_user_desc	user.h	/^typedef struct _t_user_desc{$/;"	s
+_tuser_table	user.h	/^typedef struct _tuser_table{$/;"	s
+account_widget	client_ui.c	/^    CDKENTRY     * account_widget = 0 ;$/;"	v
+add_msg_widget	client_ui.c	/^void add_msg_widget(char * buff)$/;"	f
+add_table	user.c	/^int add_table(t_user_table * table, t_user_desc * user) $/;"	f
+add_user_op	user_op.c	/^int add_user_op(t_user_table * table, t_user_desc * user)$/;"	f
+addr	user.h	/^    char addr[ INET6_ADDRSTRLEN ] ;$/;"	m	struct:_t_user_desc
+calendar_widget	client_ui.c	/^CDKCALENDAR  * calendar_widget = 0 ;       \/\/　日历窗口控件$/;"	v
+calendar_widget	server_ui.c	/^CDKCALENDAR * calendar_widget = 0 ;$/;"	v
+cdkscreen	client_ui.c	/^CDKSCREEN   * cdkscreen	= 0 ;$/;"	v
+cdkscreen	server_ui.c	/^CDKSCREEN   * cdkscreen	= 0 ;$/;"	v
+chat_widget	client_ui.c	/^CDKMENTRY    * chat_widget = 0 ;           \/\/ 字符内容控件$/;"	v
+check_user	server_ui.c	/^int check_user(void)$/;"	f
+clean_up	server_main.c	/^static void clean_up(void * args) $/;"	f	file:
+clear_window	server_ui.c	/^void clear_window(void)$/;"	f
+client_config	client_op.c	/^static int client_config(struct sockaddr_in * addr)$/;"	f	file:
+client_config	test.c	/^static int client_config(struct sockaddr_in * addr)$/;"	f	file:
+client_handle	server_main.c	/^static void client_handle(void * args)$/;"	f	file:
+client_info	server_main.c	/^struct client_info {$/;"	s	file:
+client_login	client_op.c	/^int client_login(char * name, char * passwd)$/;"	f
+client_logout	client_op.c	/^int client_logout( void )$/;"	f
+client_recv_msg	client_ui.c	/^int client_recv_msg( t_potol_type * dat) $/;"	f
+client_regster	client_op.c	/^int client_regster(char * name , char * passwd)$/;"	f
+client_send_cmd	client_op.c	/^int client_send_cmd(char * cmd)$/;"	f
+client_send_msg_to	client_op.c	/^int client_send_msg_to(char * name, char *msg)$/;"	f
+client_state	client_op.c	/^int client_state = STATE_NORMAL;$/;"	v
+client_thread	client_main.c	/^static void * client_thread(void *args)$/;"	f	file:
+client_thread_handle	server_main.c	/^void * client_thread_handle(void * args)$/;"	f
+cmd_item	server_ui.c	/^char * cmd_item[6]= { $/;"	v
+cmd_widget	client_ui.c	/^CDKSCROLL    * cmd_widget = 0 ;            \/\/　命令控件 $/;"	v
+cmd_widget	server_ui.c	/^CDKSCROLL   * cmd_widget  = 0;$/;"	v
+cnt	user.h	/^    int cnt ;$/;"	m	struct:_tuser_table
+connect_retry	client_op.c	/^static int connect_retry(int sockfd, const struct sockaddr *addr, socklen_t alen)$/;"	f	file:
+connect_retry	test.c	/^static int connect_retry(int sockfd, const struct sockaddr *addr, socklen_t alen)$/;"	f	file:
+create_calendar	client_ui.c	/^static int create_calendar( void )$/;"	f	file:
+create_calendar	server_ui.c	/^static int create_calendar(void)$/;"	f	file:
+create_client_thread	client_main.c	/^static void create_client_thread(void)$/;"	f	file:
+create_dialog	client_ui.c	/^static int create_dialog(void)$/;"	f	file:
+create_radio	server_ui.c	/^static int create_radio( void )$/;"	f	file:
+create_scroll	client_ui.c	/^static int create_scroll( void )$/;"	f	file:
+create_status	client_ui.c	/^static int create_status( void )$/;"	f	file:
+create_swindow	client_ui.c	/^static int create_swindow(void)$/;"	f	file:
+create_swindow	server_ui.c	/^static int create_swindow(void)$/;"	f	file:
+cursesWin	client_ui.c	/^WINDOW      * cursesWin	= 0 ;$/;"	v
+cursesWin	server_ui.c	/^WINDOW      * cursesWin	= 0 ;$/;"	v
+data	protocol.h	/^        char    data[DATA_MAX] ;$/;"	m	struct:_t_potol_type
+del_addr_user_op	user_op.c	/^int del_addr_user_op(t_user_table * table, char * nickname)$/;"	f
+del_table	user.c	/^int del_table(t_user_table *table ,t_user_desc * user) $/;"	f
+del_user_op	user_op.c	/^int del_user_op( t_user_table * table, t_user_desc * index)$/;"	f
+destroy_table	user.c	/^void destroy_table(t_user_table ** table) $/;"	f
+entryCB	client_ui.c	/^static int entryCB(EObjectType cdktype GCC_UNUSED,$/;"	f	file:
+err_log	client_ui.c	/^void err_log(int err)$/;"	f
+error_item	client_ui.c	/^char * error_item[] ={$/;"	v
+exit_handle	server_ui.c	/^static void exit_handle(int signo)$/;"	f	file:
+exit_user_system	user_op.c	/^void exit_user_system(t_user_table ** table)$/;"	f
+exit_window_ui	client_ui.c	/^void exit_window_ui( void )$/;"	f
+exit_window_ui	server_ui.c	/^static void exit_window_ui( void )$/;"	f	file:
+fd	server_main.c	/^    int fd ;$/;"	m	struct:client_info	file:
+file_mutex	server_op.c	/^static pthread_mutex_t file_mutex = PTHREAD_MUTEX_INITIALIZER ;     \/\/  文件锁$/;"	v	file:
+find_user_op	user_op.c	/^t_user_desc * find_user_op(t_user_table * table, char * nickname)$/;"	f
+first_menu	client_main.c	/^static void first_menu(void)$/;"	f	file:
+header	user.h	/^    t_user_desc * header ;$/;"	m	struct:_tuser_table
+init_client_system	client_op.c	/^int init_client_system(void)$/;"	f
+init_item	client_ui.c	/^char * init_item[4]= {$/;"	v
+init_server_op	server_op.c	/^int init_server_op(void)$/;"	f
+init_user_system	user_op.c	/^int  init_user_system(t_user_table ** table)$/;"	f
+init_user_table	user.c	/^int init_user_table(t_user_table ** table)$/;"	f
+init_window_ui	client_ui.c	/^int init_window_ui( void )$/;"	f
+init_window_ui	server_ui.c	/^int init_window_ui( void )$/;"	f
+initserver	server.c	/^int initserver(int type, const struct sockaddr *addr, socklen_t alen, int qlen)$/;"	f
+ip	server_main.c	/^    char ip[INET6_ADDRSTRLEN] ;$/;"	m	struct:client_info	file:
+ip_family	user.h	/^    int  ip_family ;$/;"	m	struct:_t_user_desc
+life_time	user.h	/^    int  life_time ;$/;"	m	struct:_t_user_desc
+live_user	server_ui.c	/^void live_user(void)$/;"	f
+log_cmd	log.c	/^void log_cmd(char *name, char * cmd)$/;"	f
+log_connect	log.c	/^void log_connect(char * ip_addr)$/;"	f
+log_heartbeat_err	log.c	/^void log_heartbeat_err( char * ip_addr )$/;"	f
+log_login	log.c	/^void log_login(char *name , int res)$/;"	f
+log_logout	log.c	/^void log_logout(char *name ) $/;"	f
+log_mutex	log.c	/^pthread_mutex_t log_mutex =  PTHREAD_MUTEX_INITIALIZER ;$/;"	v
+log_quit	log.c	/^void log_quit(char * ip_addr, long time)$/;"	f
+log_register	log.c	/^void log_register(char * name , int res)$/;"	f
+log_send	log.c	/^void log_send(char *src, char *dest)$/;"	f
+log_widget	server_ui.c	/^CDKSWINDOW  * log_widget      = 0 ;$/;"	v
+login_input	client_ui.c	/^int login_input(int opt, char *name, char * passwd)$/;"	f
+login_item	client_ui.c	/^char * login_item[4]= {$/;"	v
+login_widget	client_ui.c	/^    CDKBUTTONBOX * login_widget = 0 ;$/;"	v
+main	client_main.c	/^int main(int argc, char **argv)$/;"	f
+main	server_main.c	/^int main(int argc, char **argv)$/;"	f
+main	test.c	/^int main(int argc, char **argv)$/;"	f
+msg_size	protocol.h	/^        int     msg_size ;$/;"	m	struct:_t_potol_type
+msg_type	protocol.h	/^    t_data_type msg_type ;$/;"	m	struct:_t_potol_type
+msg_widget	client_ui.c	/^CDKSWINDOW   * msg_widget =0 ;             \/\/　聊天窗口控件$/;"	v
+name_widget	client_ui.c	/^CDKENTRY     * name_widget = 0 ;           \/\/　发送名称控件$/;"	v
+next	user.h	/^    struct _t_user_desc * next ;$/;"	m	struct:_t_user_desc	typeref:struct:_t_user_desc::_t_user_desc
+nickname	user.h	/^    char nickname [ NICKNAME_MAX ] ;$/;"	m	struct:_t_user_desc
+passwd	user.h	/^    char passwd [ PASSWD_MAX ];$/;"	m	struct:_t_user_desc
+passwd_widget	client_ui.c	/^    CDKENTRY     * passwd_widget = 0 ;$/;"	v
+prev	user.h	/^    struct _t_user_desc * prev ;$/;"	m	struct:_t_user_desc	typeref:struct:_t_user_desc::_t_user_desc
+run_time	user.h	/^    long run_time ;$/;"	m	struct:_t_user_desc
+second_menu	client_main.c	/^static void second_menu(void)$/;"	f	file:
+send_log	log.c	/^static void send_log(char *buff)$/;"	f	file:
+send_msg	client_main.c	/^static void send_msg(char * name)$/;"	f	file:
+server_config	server_op.c	/^static int server_config(struct sockaddr_in * addr)$/;"	f	file:
+set_user_status	client_ui.c	/^void set_user_status( int status)$/;"	f
+show_init_cmd	client_ui.c	/^int show_init_cmd( void )$/;"	f
+show_login_cmd	client_ui.c	/^int show_login_cmd( void )$/;"	f
+sig_alarm_handle	client_op.c	/^void sig_alarm_handle(int signo)$/;"	f
+sigal_alarm_handle	server_op.c	/^void sigal_alarm_handle(int signal)$/;"	f
+sleep_us	client_ui.c	/^void sleep_us(int usec)$/;"	f
+sock_fd	client_op.c	/^int sock_fd ;$/;"	v
+sock_fd	user.h	/^    int  sock_fd ;$/;"	m	struct:_t_user_desc
+sockfd_mutex	server_main.c	/^pthread_mutex_t  sockfd_mutex = PTHREAD_MUTEX_INITIALIZER ; \/\/客户端请求网络描述符$/;"	v
+status	user.h	/^    int  status ; $/;"	m	struct:_t_user_desc
+status_item	client_ui.c	/^char * status_item[3]={$/;"	v
+status_widget	client_ui.c	/^static CDKLABEL     * status_widget = 0 ;  \/\/ 用户在线状态控件$/;"	v	file:
+swin_mutex	client_ui.c	/^pthread_mutex_t swin_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+t_data_type	protocol.h	/^                        } t_data_type ;$/;"	t	typeref:enum:_t_data_type
+t_potol_type	protocol.h	/^}t_potol_type ;$/;"	t	typeref:struct:_t_potol_type
+t_user_desc	user.h	/^}t_user_desc ;$/;"	t	typeref:struct:_t_user_desc
+t_user_table	user.h	/^}t_user_table ;$/;"	t	typeref:struct:_tuser_table
+table	server_op.c	/^t_user_table * table = NULL;$/;"	v
+table_mutex	server_op.c	/^pthread_mutex_t table_mutex = PTHREAD_MUTEX_INITIALIZER ;           \/\/  互斥表锁$/;"	v
+thread_ui	server_ui.c	/^static void * thread_ui(void * args)$/;"	f	file:
+tid	user.h	/^    pthread_t tid  ;$/;"	m	struct:_t_user_desc
+user_chat_op	server_op.c	/^int user_chat_op(int fd, t_potol_type * dat)$/;"	f
+user_cmd_op	server_op.c	/^int user_cmd_op(int fd, t_potol_type * dat)$/;"	f
+user_exit_op	server_op.c	/^int user_exit_op( void )$/;"	f
+user_live_op	server_op.c	/^int user_live_op(t_potol_type * dat)$/;"	f
+user_login_op	server_op.c	/^int user_login_op(int fd, t_potol_type * dat)$/;"	f
+user_register_op	server_op.c	/^int user_register_op(int fd, t_potol_type * dat) $/;"	f
+waringCB	client_ui.c	/^static int waringCB(EObjectType cdktype GCC_UNUSED,$/;"	f	file:

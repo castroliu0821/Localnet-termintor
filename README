@@ -1,0 +1,35 @@
+此文档是编译 local_net_chat 工程的说明
+
+文件浏览:
+   ncurses.tar.gz------------------ curses 终端控制基础 库文件
+   cdk.tar.gz---------------------- curses 开发包 库文件 已经集成一些常用控件
+   local_net_chat.tar.gz----------- 局域聊天综合项目源代码
+   
+第一步:    安装 ncurses 库
+    1. 解压 ncurses.tar.gz 压缩文件  命令 tar -zxvf ncurses.tar.gz  ;
+    2. 切换 到  ncurses-5.9 文件夹;
+    3. 执行 ./configure  检查编译环境 ;
+    4. 执行 make 编译 ，可能要几分钟 ;
+    5. 执行 make install 安装 库头文件 ;
+    6. 执行 man ncurses 测试是否安装成功 ;
+    
+第二步:   安装 cdk 开发包库
+    1. 解压 cdk.tar.gz 压缩文件 命令 tar -zxvf cdk.tar.gz ;
+    2. 切换 到  cdk-5.0-20141106 文件夹;
+    3. 执行 ./configure 检查编译环境 ;
+    4. 执行 make 编译 ;
+    5. 执行 make install 安装 开发包静态库 及 头文件 ;
+    6. 执行 man cdk 测试是否安装成功 ;
+    
+第三步:    编译local_net_chat项目
+    1. 解压 local_net_chat.tar.gz 文件夹 命令 tar -zxvf local_net_chat ;
+    2. 进入 local_net_chat 文件夹 ;
+    3. 执行 make clean 再 执行 make 命令
+    4. 生成 server 及 client 可执行文件
+    
+注意: 
+1.    server.cfg 配置 server 及 client 时需要使用
+      SERVER=XXX.XXX.XXX.XXX  表示 客户端 IP
+      IP=XXXX                 表示 服务器 端口号
+2.    server.usr 存放服务器的用户及密码数据
+    
